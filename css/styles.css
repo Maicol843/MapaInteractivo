@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:whitesmoke;
+}
+
+.contenedor, .contenedorMapa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+img{
+    width: 100px;
+    padding: 2%;
+}
+
+h1{
+    text-align: center;
+    color: #062068;
+}
+
+#mapa{
+    padding-top: 2%;
+    padding-left: 10%;
+    width: 100%;
+    height: 850px;
+}
+
+#mapaAR{
+    width: 100%;
+    height: 800px;
+}
+
+#mapa path{
+    fill: #0c91df;
+    stroke: black;
+    stroke-width: 2px;
+}
+
+#mapa :hover{
+    fill: #062068;
+}
+
+.texto{
+    text-align: justify;
+    padding-top: 5%;
+    text-indent: 5%;
+    color: black;
+    font-family:'Segoe UI';
+}
